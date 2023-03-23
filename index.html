@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./file2.css">
+</head>
+<body>
+    <h1 class="h1">SET </h1>
+    <p >1. USING SET RETURN NON REPEATING STRING </p>
+    <div>
+    <pre>
+       let str="abcdeecfb";
+       const S=new Set();
+       for(i=0;i< str.length;i++){
+        S.add(str[i])
+       }
+console.log(...s)
+       }
+
+    
+        
+    </pre>
+   </div>
+   <h1 class="h1">MAP</h1>
+   <p>2. COUNT OF ALPHABETS</p>
+   <div>
+     <Pre>
+        let str="abcdeecfb";
+        const m=new Map();
+        for(let i=0;i < str.length;i++){
+            if(m.has(str[i])){
+                m.set(str[i],number(m.get(str[i]))+1)
+            }
+            else{
+                m.set(str[i],1);
+            }
+        }
+        for(const[key,value]of m)
+        {
+            console.log(key+"="+values)
+        }
+        m.foreach((value,key)=> {
+            console.log(key+"="+value);
+        });
+ 
+         
+        
+  </Pre>
+</div>
+
+
+</body>
+</html>
